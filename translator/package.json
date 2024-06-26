@@ -1,0 +1,22 @@
+{
+  "name": "translator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run start-react && node index.js",
+  "start-react": "cd my-app && npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.15.1",
+    "auth": "^1.0.2",
+    "express": "^4.19.2",
+    "firebase": "^10.12.2",
+    "prizma": "^0.0.22",
+    "sequelize": "^6.37.3",
+    "sqlite3": "^5.1.7"
+  }
+}
